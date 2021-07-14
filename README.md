@@ -1,15 +1,20 @@
-# shc-covid19-decoder
+# vaccine-ca-reader
 
-Visit simple hosted version on your phone (does NOT transmit any data, all remains in your browser)
-https://fproulx.github.io/shc-covid19-decoder/
+# Overview
+This will allow to check someone immunization using their California QR Code for any valid reason.
 
-About
-Very simple app to decode your Vaccination Proof QR Code (such as the one provided by government of Quebec) - Compatible with SHC (Smart Health Card standard).
+Using fproulx's original code, I have wrapped this into something more user friendly with only the necessary data.
 
-![decoder-page](decoder-page.jpeg)
-![demo](demo.png)
+![interface](interface.png)
+
+# Usage
+- Hosted version: <URL>
+- (or) Deploy/Copy and start with index.html.
 
 # Building
+- JS Compilation: `npm run build`
 
-- `npm run build` compiles the JS
-- `npm run dev` compiles the JS in watch mode
+# Credits
+- Original Code: https://github.com/fproulx/shc-covid19-decoder
+- CA SHC Fix: https://github.com/thardie/shc-covid19-decoder
+- Bootstrap & jQuery
