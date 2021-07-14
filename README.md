@@ -8,7 +8,7 @@ This will allow to check someone immunization using their California QR Code for
 It should be compatible with the Smart Health Card standard used by Quebec and the state of California.
 
 # Usage
-- **Hosted version**: https://www.mkpascal.net/vaccine-ca-reader/
+- **GitHub Pages Hosted Version**: https://www.mkpascal.net/vaccine-ca-reader/
 - (or) **Deploy/Copy** and start with **index.html**.
 
 # Building
